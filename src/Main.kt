@@ -103,6 +103,7 @@ fun numberRevert(number: Int): Int {
     return (x1 * 100 + x2 * 10 + x3)
 
 }
+fun discriminant (a : Int, b : Int, c : Int) = (b * b) - 4 * a * c
 
 fun main() {
     val name = "Kotlin"
